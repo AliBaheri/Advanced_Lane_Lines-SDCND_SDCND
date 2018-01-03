@@ -98,7 +98,7 @@ I followed the simple role from math [and calrified here in the lecture](https:/
 
 The `my_pipline` function in `cell 14` is responsible to turn something similar to following image: 
 
-<img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/FinalPipeline.png">
+<img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/FinalResult.png">
 
 ### Pipeline (video)
 
