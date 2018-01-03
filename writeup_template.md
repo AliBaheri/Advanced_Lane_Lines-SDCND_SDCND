@@ -106,7 +106,7 @@ The `my_pipline` function in `cell 14` is responsible to turn something similar 
 
 Here's a [link to my video result](https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_video.mp4)
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src=https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_video.gif" width="400" height="250" />
 
 ### Discussion
 
