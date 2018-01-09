@@ -40,6 +40,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
 
+<p align="center">
 <img width="400" src= "https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/OriginalvsUndistorted_v2.png">
 
 In my code `undistorted_correction` converts the input image into grayscale image and the result is fed to camera calibration function. Next, `cv2.undistort` converts the input image to an undistorted image. 
@@ -48,6 +49,7 @@ In my code `undistorted_correction` converts the input image into grayscale imag
 
 Several methods have been used in my code (please see cell 5) to identify a binary image. I resorted to several trial and errors to tune the parameters of thees functions.
 
+<p align="center">
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/Original%26Sobelx.png"> 
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/CombinedBinary.png"> 
 
