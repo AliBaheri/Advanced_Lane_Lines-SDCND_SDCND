@@ -31,6 +31,7 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
+<p align="center">
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/CameraCallibrate.png"> 
 <img width="400"  src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/OriginalvsUndistorted.png"> 
 
@@ -81,12 +82,14 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
+<p align="center">
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/WarpedvsUndist.png"> 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 [Inspring from the trick presented in lecture](https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e/modules/2b62a1c3-e151-4a0e-b6b6-e424fa46ceab/lessons/40ec78ee-fb7c-4b53-94a8-028c5c60b858/concepts/c41a4b6b-9e57-44e6-9df9-7e4e74a1a49a) I was abe to locate the lane lines and fit a Polynomial. The main idea here is identifying the peaks of two halves in the histogram output of. The function `find_lane_radius` is responsible to compute the left and right radii in my code.
 
+<p align="center">
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/LaneBoundry.png"> 
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/LaneBoundry_v2.png"> 
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/TestPipeline.png"> 
@@ -101,6 +104,7 @@ I followed the simple role from math (and also nited in lecture) to measure the 
 
 `my_pipline` method in `cell 14` is responsible to turn something similar to following image: 
 
+<p align="center">
 <img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/FinalResult.png">
 
 ### Pipeline (video)
@@ -109,6 +113,7 @@ I followed the simple role from math (and also nited in lecture) to measure the 
 
 Here's a [link to my video result](https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_video.mp4)
 
+<p align="center">
 <img src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_video.gif"/>
 
 ### Discussion
