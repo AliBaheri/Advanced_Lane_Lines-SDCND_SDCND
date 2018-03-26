@@ -51,8 +51,8 @@ In my code `undistorted_correction` converts the input image into grayscale imag
 Several methods have been used in my code (please see cell 5) to identify a binary image. I resorted to several trial and errors to tune the parameters of thees functions.
 
 <p align="center">
-<img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/Original%26Sobelx.png"> 
-<img width="400" src="https://github.com/AliBaheri/Advanced_Lane_Lines_SDCND/blob/master/output_images/CombinedBinary.png"> 
+<img width="400" src="https://github.com/AliBaheri/Vehicle_Detection_SDCND/blob/master/output_images/CARvsNotCar.png"> 
+
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
